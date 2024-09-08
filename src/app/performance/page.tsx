@@ -1,5 +1,8 @@
+import bgImg from '/public/performance.jpeg';
+import Hero from "@/components/hero";
+
 export default function Page() {
   return (
-    <div>Performance</div>
+    <Hero imgUrl={bgImg} altTxt="performance" content="performance~~"/>
   );
 }
