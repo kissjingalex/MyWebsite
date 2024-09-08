@@ -20,7 +20,6 @@ const linkData = [
 
 export default function Header() {
   const pathName = usePathname();
-
   return (
     <div className="absolute w-full z-10">
       <div className="flex justify-between items-center text-white p-8 container mx-auto">
