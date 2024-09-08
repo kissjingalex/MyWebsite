@@ -24,10 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressContentEditableWarning={false}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h2>I am root layout</h2>
         {children}
       </body>
     </html>
